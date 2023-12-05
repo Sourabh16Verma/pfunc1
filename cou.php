@@ -114,7 +114,8 @@ echo preg_replace($pattern, 'kota', $str);
   <?php
   $arr = array("sourabh"=>"xc45", "deorwine"=>"x5", "intern"=>"highlander");
   print_r(array_keys($arr));
-?>
+?><br>
+<!-- dirname,function exists, array map,get class,class exists -->
 
     
 </body>
