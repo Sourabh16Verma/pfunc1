@@ -77,8 +77,22 @@ $a = "sourabh";
     <?php
     $str = "sourabh batki";
     echo $str; "<br>";
-    echo trim($str, "oa");
+    echo trim($str, "s");
+?><br>
+<!-- strtolower function -->
+<?php
+echo strtolower("Hello WORLD.");
+?><br>
+<?php
+echo file_exists("cou.php"); 
+?><br>
+<!-- is string function -->
+<?php
+$str = "sourabh";
+echo "a is " . is_string($str) . "<br>";
+  
 ?>
+
     
 </body>
 </html>
