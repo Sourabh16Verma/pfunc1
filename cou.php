@@ -90,7 +90,30 @@ echo file_exists("cou.php");
 <?php
 $str = "sourabh";
 echo "a is " . is_string($str) . "<br>";
-  
+?><br>
+<!-- preg-replace function -->
+<?php 
+$str = 'visit our bundi rajasthan';
+$pattern = '/rajasthan/i';
+echo preg_replace($pattern, 'kota', $str);
+ ?><br>
+  <!--
+  echo file_get_contents("cou.php");
+  ?> --> 
+  <!-- array key exists function -->
+  <?php 
+ $arr = array("volvo"=>"xc120","BMW"=>"x5");
+ if(array_key_exists("volvo",$arr)){
+  echo "key hai";
+ }
+ else{
+  echo "key nahi hai bhai";
+ }
+  ?><br>
+  <!-- array key function -->
+  <?php
+  $arr = array("sourabh"=>"xc45", "deorwine"=>"x5", "intern"=>"highlander");
+  print_r(array_keys($arr));
 ?>
 
     
